@@ -179,3 +179,6 @@ ASAP SDK Portal Chat Kit flutter plugin
 
 # 2.6.3
 - Integrated ASAP iOS SDK 4.6.4
+
+# 2.6.4
+- Integrated ASAP iOS SDK 4.6.7
