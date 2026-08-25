@@ -44,6 +44,7 @@ class ZohodeskPortalTicketPlugin: ZDPBaseActivityAwarePlugin("zohodesk_portal_ti
         .isTicketPropertiesAllowed(ticketConfiguration.isTicketPropertiesAllowed)
         .isTicketChannelAllowed(ticketConfiguration.isTicketChannelAllowed)
         .isTicketDetailSearchAllowed(ticketConfiguration.isTicketDetailSearchAllowed)
+        .isOverdueTagAllowed(ticketConfiguration.isOverdueTagAllowed)
         .build()
     )
   }
