@@ -118,13 +118,12 @@ class ZohodeskPortalSiqPlugin: FlutterPlugin, MethodChannel.MethodCallHandler, A
     ZohoDeskPortalSalesIQ.setGuestUserDetails(userDetails)
   }
 
+
   private fun addInfo(call: MethodCall, result: MethodChannel.Result) {
     val paramsMap = call.arguments as? HashMap<String, Any>
     val key = paramsMap?.get("key") as? String?
     val value = paramsMap?.get("value") as? String?
-    value?.let {
-      ZohoDeskPortalSalesIQ.addInfo(key, it)
-    }
+    ZohoDeskPortalSalesIQ.addInfo(key, value)
   }
 
   private fun setChatBrandDetails(call: MethodCall, result: MethodChannel.Result) {

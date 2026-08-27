@@ -11,7 +11,7 @@ class ZDPTicketConfiguration {
   bool _isTicketPropertiesAllowed = true;
   bool _isTicketChannelAllowed = true;
   bool _isTicketDetailSearchAllowed = true;
-  bool _isOverdueTagAllowed = true;
+  // bool _isOverdueTagAllowed = true;
 
   set isReplyAllowed(bool isAllowed) => _isReplyAllowed = isAllowed;
   set isCommentAllowed(bool isAllowed) => _isCommentAllowed = isAllowed;
@@ -23,7 +23,7 @@ class ZDPTicketConfiguration {
   set isTicketPropertiesAllowed(bool isAllowed) => _isTicketPropertiesAllowed = isAllowed;
   set isTicketChannelAllowed(bool isAllowed) => _isTicketChannelAllowed = isAllowed;
   set isTicketDetailSearchAllowed(bool isAllowed) => _isTicketDetailSearchAllowed = isAllowed;
-  set isOverdueTagAllowed(bool isAllowed) => _isOverdueTagAllowed = isAllowed;
+  // set isOverdueTagAllowed(bool isAllowed) => _isOverdueTagAllowed = isAllowed;
 
   bool get isReplyAllowed => _isReplyAllowed;
   bool get isCommentAllowed => _isCommentAllowed;
@@ -35,7 +35,7 @@ class ZDPTicketConfiguration {
   bool get isTicketPropertiesAllowed => _isTicketPropertiesAllowed;
   bool get isTicketChannelAllowed => _isTicketChannelAllowed;
   bool get isTicketDetailSearchAllowed => _isTicketDetailSearchAllowed;
-  bool get isOverdueTagAllowed => _isOverdueTagAllowed;
+  // bool get isOverdueTagAllowed => _isOverdueTagAllowed;
 
   Map toJson() => {
     'isReplyAllowed' : isReplyAllowed,
@@ -48,7 +48,7 @@ class ZDPTicketConfiguration {
     'isTicketPropertiesAllowed' : isTicketPropertiesAllowed,
     'isTicketChannelAllowed' : isTicketChannelAllowed,
     'isTicketDetailSearchAllowed' : isTicketDetailSearchAllowed,
-    'isOverdueTagAllowed' : isOverdueTagAllowed
+    // 'isOverdueTagAllowed' : isOverdueTagAllowed
   };
 
 }
