@@ -11,7 +11,7 @@ class ZDPTicketConfiguration {
   bool _isTicketPropertiesAllowed = true;
   bool _isTicketChannelAllowed = true;
   bool _isTicketDetailSearchAllowed = true;
-  // bool _isOverdueTagAllowed = true;
+  // bool _isOverdueTagAllowed = true;//Need to enable once supported in native
 
   set isReplyAllowed(bool isAllowed) => _isReplyAllowed = isAllowed;
   set isCommentAllowed(bool isAllowed) => _isCommentAllowed = isAllowed;
