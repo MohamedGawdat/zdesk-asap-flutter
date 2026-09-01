@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'DeskMobile' => 'support@zohodesk.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'zohodesk_portal_submit_ticket/Sources/zohodesk_portal_submit_ticket/**/*'
   s.dependency 'Flutter'
   s.dependency 'ZohoDeskPortalTicket', '4.6.8'
   s.dependency 'zohodesk_portal_apikit', "#{s.version}"
